@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MIDIBoard</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <h1>MIDIBoard</h1>
+    <div id="tiles">
+      <div id="button" title="1" class="left">Button 1</div>
+      <div id="button" title="2" class="middle">Button 2</div>
+      <div id="button" title="3" class="right">Button 3</div>
+    </div>
+    <ol class="todo">
+      <li>Add remaining buttons - 4 rows, 8 columns - 32 cells</li>
+      <li>Look into column framework (Susy?) to make layout easier</li>
+      <li>Cooldown per 'user' - monitor cooldown in header</li>
+    </ol>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
