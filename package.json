@@ -4,8 +4,9 @@
   "description": "Remote control your Soundboard with socket.io",
   "main": "app.js",
   "dependencies": {
+    "express": "^4.4.4",
     "midi": "^0.9.0",
-    "midi-help": "^0.2.0"
+    "socket.io": "^1.0.6"
   },
   "devDependencies": {},
   "scripts": {
