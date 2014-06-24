@@ -3,5 +3,8 @@
     "noteOn": "144",
     "noteOff": "128",
     "velocity": "50"
+  },
+  "server": {
+    "port": 8888
   }
 }
