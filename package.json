@@ -1,0 +1,29 @@
+{
+  "name": "midiboard",
+  "version": "0.0.1",
+  "description": "Remote control your Soundboard with socket.io",
+  "main": "app.js",
+  "dependencies": {
+    "midi": "^0.9.0",
+    "midi-help": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neurotech/midiboard.git"
+  },
+  "keywords": [
+    "midi",
+    "soundboard",
+    "socket.io"
+  ],
+  "author": "Tim Douglas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neurotech/midiboard/issues"
+  },
+  "homepage": "https://github.com/neurotech/midiboard"
+}
