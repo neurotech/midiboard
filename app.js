@@ -5,23 +5,6 @@ var config = require('./config.json');
 var output = new midi.output();
 output.openVirtualPort('Soundboard MIDI Controller');
 
-// Note builders
-var noteOn = function(note) {
-  var noteStructure = [];
-  noteStructure.push(config.generic.noteOn);
-  noteStructure.push(note);
-  noteStructure.push(config.generic.velocity);
-  return noteStructure;
-};
-
-var noteOff = function(note) {
-  var noteStructure = [];
-  noteStructure.push(config.generic.noteOff);
-  noteStructure.push(note);
-  noteStructure.push(config.generic.velocity);
-  return noteStructure;
-};
-
 var noteSend = function(state, note) {
   var noteStructure = [];
   noteStructure.push(note, config.generic.velocity);
